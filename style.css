@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Genos-VariableFont_wght ;
+    src: url(Genos-VariableFont_wght.ttf);
+}
+
+body{
+    margin:0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image:
+     url("https://images.unsplash.com/photo-1605727216801-e27ce1d0cc28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-position: center;
+    width:100vw;
+    height: 100vh;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: Genos-VariableFont_wght;
+    
+}
+.bookcard{
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    background-color: aqua;
+    background-image: url("Jeff+Carson+Blog+David+Wolf+Series+\(3\).png");
+    color: aliceblue
+}
+.bookname{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(70, 64, 64) ;  
+    background-position: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+.pages{
+     width:50px;
+     height: 50px;
+     background-color: beige;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: black;
+     position: absolute;
+
+}
+#number{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+}
